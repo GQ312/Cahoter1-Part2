@@ -1,0 +1,5 @@
+time1 = input("Write first time (H:M:S): ").split(":")
+time2 = input("Write second time (H:M:S): ").split(":")
+time1 = (int(time1[0]) * 60 + int(time1[1])) * 60 + int(time1[2])
+time2 = (int(time2[0]) * 60 + int(time2[1])) * 60 + int(time2[2])
+print(f"Result {time2 - time1} seconds")
